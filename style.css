@@ -38,6 +38,8 @@ main {
     text-align: center;
 }
 
+/* offer start */
+
 .offer {
     justify-content: center;
     align-items: center;
@@ -75,11 +77,13 @@ main {
     letter-spacing: 0%;
     text-align: center;
 }
+/* offer end */
 
+/* party start */
 .party {
     background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(./images/Vectorrr.png);
     display: flex;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: auto;
@@ -118,3 +122,101 @@ main {
 .party .vector {
    padding: 30px;
 }
+.party-button {
+    padding: 10px;
+    background-color: rgb(238, 225, 37);
+    border-radius: 5px;
+}
+/* party ends */
+/* new-park-hotel  */
+.new-park-hotel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    height: 400px;
+    margin-top: 50px;
+}
+.new-park-hotel-content {
+    justify-content: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.new-park-hotel-span {
+    color: red;
+}
+.new-park-hotel-button >button {
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    padding: 15px 25px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+}
+/* new-park-hotel ends */
+/* best-offer start */
+.best-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best-offer-content {
+    padding: 50px;
+}
+.best-offer-content .b-offer-p {
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19 px;
+    letter-spacing: 0%;
+}
+.best-offer-content >h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+.best-offer-content .b-offer-des {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.best-offer-img {
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 250px;  
+    align-items: center;
+    justify-content: center;
+}
+.best-offer-img >img {
+    padding: 10px;
+}
+.best-offer-content-right { 
+    padding: 50px;
+    text-wrap: wrap;
+}
+.best-offer-content-right >h2 {
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 10px;
+}
+/* best-offer ends */
+
